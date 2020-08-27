@@ -1,0 +1,195 @@
+.acf-input-append,.acf-input-prepend{
+	
+	height:3.02em !important;
+}
+.acf-radio-list li,input,select,textarea {
+	font-size:0.9em !important;
+}
+.acf-fields{
+	width:90%;
+	margin:auto;
+}
+#content h2{
+	text-align:center;
+}
+input{
+	height: auto;
+}
+#estado, #tipo-usuario{
+	display:none;
+}
+.prueba{
+	display: block !important;
+    width: 100% !important;
+    height: calc(1.5em + .75rem + 2px )!important;
+    padding: .375rem .75rem!important;
+    font-size: 1rem!important;
+    font-weight: 400!important;
+    line-height: 1.5!important;
+    color: #495057!important;
+    background-color: #fff!important;
+    background-clip: padding-box!important;
+    border: 1px solid #ced4da!important;
+    border-radius: .25rem!important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out!important;
+	
+}
+#acf-form {
+	max-width: 100% !important;
+}
+.acf-fields {
+	width: 100% !important;
+}
+.entry .entry-content {
+    padding: 0 !important;
+    margin: calc(3 * 1rem) calc(9% + 60px) 1rem !important;
+}
+.entry-content {
+    padding: 0 !important;
+    margin: calc(3 * 1rem) calc(9% + 60px) 1rem !important;
+}
+.title-h1{
+    text-align: -webkit-center;
+}
+
+#imagen-principal{
+    display:none;
+}
+.image_mapping-image span{
+   width: 40px !important;
+    height: 40px !important;
+    border-radius: 20px !important;
+    background: #653a3aab !important;
+    padding-top: 4px;
+    color: white;
+    text-align: -webkit-center;
+}
+
+#input-map{
+    display: none;
+}
+#contenedor-pagin .overlay {
+    position: fixed;
+    
+    width: 100%;
+    height: 10%;
+    top: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display:none;
+    z-index: 2;
+    cursor: pointer;
+    
+  }
+  #contenedor-pagin #overlay-error{
+    background-color: #ef2d2db3;
+  }
+  #contenedor-pagin #overlay-exito{
+    background-color:#3be63bc4;
+  }
+  
+  #text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
+  #listado-vehiculos{
+    width:90%;margin:auto;
+  }
+  @media screen and (min-width:800px) and (max-width:1091px){
+    .entry .entry-content{
+        margin-left: 1em !important;
+    margin-right: 0em !important;
+    max-width: calc(97% - (1* 0rem));
+    
+    }
+    .entry-content {
+        padding: 0 !important;
+        margin: calc(3 * 1rem) calc(0% + 60px) 1rem !important;
+    }
+    .observacion .acf-label{
+        font-size: 17px!important;
+      }
+     input{
+        border-top: #EEEEEE solid 2px!important;
+      }
+      #listado-vehiculos{
+        width: 100%;
+        margin: auto;
+        font-size: 17px;
+      }
+  }
+  @media screen and (min-width:480px) and (max-width:800px){
+    .entry-content{
+        margin-left: 0em !important;
+        margin-right: 0em !important;
+
+    }
+    .entry .entry-content{
+        margin-left: 0em !important;
+        margin-right: 0em !important;
+        max-width: calc(100% - (0* 0rem));
+    }  
+    #listado-vehiculos{
+        width:90%;margin:auto;
+        font-size: 14px;
+      }
+      input{
+        border-top: #EEEEEE solid 2px!important;
+      }
+      .observacion .acf-label{
+        font-size: 18px!important;
+      }
+  }
+  @media screen and (max-width:480px){
+    .entry .entry-content{
+        margin-left: 0em !important;
+        margin-right: 0em !important;
+        max-width: calc(100% - (0* 0rem));
+    }  
+    .entry-content{
+          margin-left: 0em !important;
+          margin-right: 0em !important;
+
+      }
+      #acf-form{
+          margin-left: 2px!important;
+      }
+      .acf-input{
+        top: 5px!important;
+      }
+      .acf-label{
+        margin-bottom: 9px!important;
+      }
+      input{
+        border-top: #EEEEEE solid 2px!important;
+      }
+      .acf-field-true-false .acf-label{
+        font-size: 17px!important;
+
+      }
+      #listado-vehiculos{
+        width:90%;margin:auto;
+        font-size: 12px;
+      }
+       
+  }
+  #repeat-detalle .acf-table tbody .acf-row .remove {
+    display:none;
+  }
+  #repeat-detalle .acf-actions a{
+    display: none;
+  }
+  #logueado{
+      display:none;
+  }
+  
+  #mensaje-list{
+      text-align: center;
+    color: #868282;
+  }

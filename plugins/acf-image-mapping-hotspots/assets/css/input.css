@@ -1,0 +1,6 @@
+
+/*-- Image --*/
+.image_mapping-image { position: relative; display: block; width: 100%; overflow: hidden; cursor: crosshair; }
+.image_mapping-image img { display: block; width: 100%; }
+.image_mapping-image span {width: 16px;height: 16px;border-radius: 10px;background: white;position: absolute;transform: translate(-50%, -50%);box-sizing: border-box;background: radial-gradient(white, white 20%, black);}
+
